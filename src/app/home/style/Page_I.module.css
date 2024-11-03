@@ -1,0 +1,230 @@
+.formed {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  height: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: karla;
+}
+
+.description {
+  width: 100%;
+  height: 73%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content {
+  width: 31%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.image {
+  width: 100%;
+  height: 60%;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  width: 35%;
+  height: 10%;
+  background-color: black;
+  color: white;
+}
+.btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.footer_btn {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer_image {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.click {
+  width: 30%;
+  height: 70%;
+  letter-spacing: 1px;
+  background-color: silver;
+}
+
+.click:hover {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 1167px) {
+  .btn {
+    width: 45%;
+    height: 10%;
+    background-color: black;
+    color: white;
+  }
+  .image {
+    width: 100%;
+    height: 55%;
+  }
+}
+
+@media (max-width: 900px) {
+  .btn {
+    width: 55%;
+    height: 10%;
+    background-color: black;
+    color: white;
+  }
+}
+
+@media (max-width: 800px) {
+  .btn {
+    width: 65%;
+    height: 10%;
+    background-color: black;
+    color: white;
+  }
+  .image {
+    width: 100%;
+    height: 52%;
+  }
+}
+
+@media (max-width: 741px) {
+  .formed {
+    width: 100%;
+    height: 400vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .title {
+    width: 100%;
+    height: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: karla;
+  }
+  .description {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .content {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .image {
+    width: 90%;
+    height: 70%;
+    object-fit: cover;
+  }
+  .btn {
+    width: 35%;
+    height: 5%;
+    background-color: black;
+    color: white;
+  }
+  .content h3 {
+    font-size: 30px;
+  }
+  .content p {
+    font-size: 20px;
+  }
+  .footer_btn {
+    width: 100%;
+    height: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+  }
+  .footer_image {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .click {
+    width: 50%;
+    height: 30%;
+    letter-spacing: 1px;
+    background-color: #faf6ef;
+  }
+  .click:hover {
+    background-color: black;
+    color: white;
+  }
+}
